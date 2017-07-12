@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Forms</title>
+	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+	<script src="js/jquery.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<style>
+		.row>col-md-4>h2>p>{box-sizing: border-box;}
+	</style>
+</head>
+<body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span> 
+				</button>
+				<a class="navbar-brand" href="#">Snow </a>
+			</div>
+			<div class="collapse navbar-collapse" id="myNavbar">
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Register</a></li>
+					<li><a href="#">Login</a></li> 
+					<li><a href="#">Help</a></li> 
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+					<li><a href="#"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div class="container">
+
+		<div class="row">
+			<div class="col-md-4">
+				<h2>About Us</h2>
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit,<br> sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. <br> Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. <br> Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p> 
+				</div>
+				<div class="col-md-4">
+					<h2>Register Here</h2>
+					<form>
+						<div class="form-group">
+							<label for="name">Names:</label>
+							<input type="text" class="form-control" id="names">
+						</div>
+
+						<div class="form-group">
+							<label for="dob">Date of Birth:</label>
+							<input type="date" class="form-control" id="dob">
+						</div>
+
+
+						<div class="form-group">
+							<label for="email">Email address:</label>
+							<input type="email" class="form-control" id="email">
+						</div>
+
+
+						<div class="form-group">
+							<label for="pwd">Password:</label>
+							<input type="password" class="form-control" id="pwd">
+						</div>
+
+						<div class="radio">
+							<label><input type="radio" name="gender">male</label>
+						</div>
+						<div class="radio">
+							<label><input type="radio" name="gender">female</label>
+						</div>
+						<div class="form-group">
+							<label for="sel1">Select educational level</label>
+							<select class="form-control" id="sel1">
+								<option>primary</option>
+								<option>high school</option>
+								<option>polytechnic</option>
+								<option>university</option>
+								<option>phd</option>
+								<option>drop out</option>
+								<option>collage</option>
+								<option>master</option>
+							</select>
+						</div>
+
+						<button type="submit" class="btn btn-block">Submit</button>
+					</form>
+				</div>
+				<div class="col-md-4">C</div>
+
+			</div>
+		</div>
+
+
+	</body>
+	</html>
